@@ -1,7 +1,7 @@
 Logs info & error messages to the console and their respective files. 
  
 
-###Instructions
+### Instructions
 
 1) yarn add loggaroo
 2) import logger from 'loggaroo';
