@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "./distribution/index.js",
+  "homepage": "https://www.npmjs.com/package/loggaroo",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir distribution",
     "prepublish": "npm run build"
