@@ -1,7 +1,12 @@
 {
   "name": "loggaroo",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
+  "keywords": [
+    "winston",
+    "logging",
+    "error log"
+  ],
   "main": "./distribution/index.js",
   "homepage": "https://www.npmjs.com/package/loggaroo",
   "scripts": {
