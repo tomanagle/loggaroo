@@ -1,6 +1,6 @@
 {
   "name": "loggaroo",
-  "version": "1.1.0",
+  "version": "1.1.2",
   "description": "",
   "keywords": [
     "winston",
@@ -8,7 +8,7 @@
     "error log"
   ],
   "main": "./distribution/index.js",
-  "homepage": "https://www.npmjs.com/package/loggaroo",
+  "homepage": "https://github.com/tomanagle/loggaroo",
   "scripts": {
     "build": "babel src --presets babel-preset-es2015 --out-dir distribution",
     "prepublish": "npm run build"
