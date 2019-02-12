@@ -1,6 +1,6 @@
 {
   "name": "loggaroo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Automagically log info and errors to your console and log files.",
   "keywords": [
     "winston",
@@ -11,16 +11,22 @@
   "homepage": "https://github.com/tomanagle/loggaroo",
   "scripts": {
     "build": "yarn tsc",
+    "test": "jest --verbose",
     "prepublish": "npm run build"
   },
   "author": "Tom Nagle <tomanagle@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "moment": "^2.22.2",
-    "winston": "^3.0.0"
+    "moment": "^2.24.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
+    "@types/jest": "^24.0.1",
+    "@types/moment": "^2.13.0",
     "@types/node": "^11.9.0",
+    "@types/winston": "^2.4.4",
+    "jest": "24.0.0",
+    "ts-jest": "^23.10.5",
     "typescript": "^3.3.3"
   }
 }
